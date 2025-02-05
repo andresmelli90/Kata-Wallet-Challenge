@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\amellimaci\\Downloads\\dotnet-wallet-l2\\Kata.Wallet.L2\\Kata.Wallet.Database\\Kata.Wallet.Database.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\amellimaci\\Downloads\\dotnet-wallet-l2\\Kata.Wallet.L2\\Kata.Wallet.Database\\Kata.Wallet.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\amellimaci\\Downloads\\dotnet-wallet-l2\\Kata.Wallet.L2\\Kata.Wallet.Database\\Kata.Wallet.Database.csproj",
+        "projectName": "Kata.Wallet.Database",
+        "projectPath": "C:\\Users\\amellimaci\\Downloads\\dotnet-wallet-l2\\Kata.Wallet.L2\\Kata.Wallet.Database\\Kata.Wallet.Database.csproj",
+        "packagesPath": "C:\\Users\\amellimaci\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amellimaci\\Downloads\\dotnet-wallet-l2\\Kata.Wallet.L2\\Kata.Wallet.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\amellimaci\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\amellimaci\\Downloads\\dotnet-wallet-l2\\Kata.Wallet.L2\\Kata.Wallet.Domain\\Kata.Wallet.Domain.csproj": {
+                "projectPath": "C:\\Users\\amellimaci\\Downloads\\dotnet-wallet-l2\\Kata.Wallet.L2\\Kata.Wallet.Domain\\Kata.Wallet.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.33, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\amellimaci\\Downloads\\dotnet-wallet-l2\\Kata.Wallet.L2\\Kata.Wallet.Domain\\Kata.Wallet.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\amellimaci\\Downloads\\dotnet-wallet-l2\\Kata.Wallet.L2\\Kata.Wallet.Domain\\Kata.Wallet.Domain.csproj",
+        "projectName": "Kata.Wallet.Domain",
+        "projectPath": "C:\\Users\\amellimaci\\Downloads\\dotnet-wallet-l2\\Kata.Wallet.L2\\Kata.Wallet.Domain\\Kata.Wallet.Domain.csproj",
+        "packagesPath": "C:\\Users\\amellimaci\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\amellimaci\\Downloads\\dotnet-wallet-l2\\Kata.Wallet.L2\\Kata.Wallet.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\amellimaci\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

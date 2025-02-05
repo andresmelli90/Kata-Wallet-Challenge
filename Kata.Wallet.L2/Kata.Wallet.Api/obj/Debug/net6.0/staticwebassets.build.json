@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LQoMkHAql/oujels6G/ELBNgYatcU+iGLZqWprSwtys=",
+  "Source": "Kata.Wallet.Api",
+  "BasePath": "_content/Kata.Wallet.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

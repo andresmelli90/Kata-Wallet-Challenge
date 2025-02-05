@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ivanm\\OneDrive\\Documentos\\Possumus\\callenges\\dotnet-wallet-l2\\Kata.Wallet.L2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73CC6D71-C54E-486B-AA43-95EA1AAF7279}|Kata.Wallet.Api\\Kata.Wallet.Api.csproj|c:\\users\\ivanm\\onedrive\\documentos\\possumus\\callenges\\dotnet-wallet-l2\\kata.wallet.l2\\kata.wallet.api\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73CC6D71-C54E-486B-AA43-95EA1AAF7279}|Kata.Wallet.Api\\Kata.Wallet.Api.csproj|solutionrelative:kata.wallet.api\\controllers\\walletcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73CC6D71-C54E-486B-AA43-95EA1AAF7279}|Kata.Wallet.Api\\Kata.Wallet.Api.csproj|c:\\users\\ivanm\\onedrive\\documentos\\possumus\\callenges\\dotnet-wallet-l2\\kata.wallet.l2\\kata.wallet.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73CC6D71-C54E-486B-AA43-95EA1AAF7279}|Kata.Wallet.Api\\Kata.Wallet.Api.csproj|solutionrelative:kata.wallet.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7A4EB9-7F92-4E12-987D-569C44E896B1}|Kata.Wallet.Dtos\\Kata.Wallet.Dtos.csproj|c:\\users\\ivanm\\onedrive\\documentos\\possumus\\callenges\\dotnet-wallet-l2\\kata.wallet.l2\\kata.wallet.dtos\\walletdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7A4EB9-7F92-4E12-987D-569C44E896B1}|Kata.Wallet.Dtos\\Kata.Wallet.Dtos.csproj|solutionrelative:kata.wallet.dtos\\walletdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WalletDto.cs",
+              "DocumentMoniker": "C:\\Users\\ivanm\\OneDrive\\Documentos\\Possumus\\callenges\\dotnet-wallet-l2\\Kata.Wallet.L2\\Kata.Wallet.Dtos\\WalletDto.cs",
+              "RelativeDocumentMoniker": "Kata.Wallet.Dtos\\WalletDto.cs",
+              "ToolTip": "C:\\Users\\ivanm\\OneDrive\\Documentos\\Possumus\\callenges\\dotnet-wallet-l2\\Kata.Wallet.L2\\Kata.Wallet.Dtos\\WalletDto.cs",
+              "RelativeToolTip": "Kata.Wallet.Dtos\\WalletDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T12:58:14.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WalletController.cs",
+              "DocumentMoniker": "C:\\Users\\ivanm\\OneDrive\\Documentos\\Possumus\\callenges\\dotnet-wallet-l2\\Kata.Wallet.L2\\Kata.Wallet.Api\\Controllers\\WalletController.cs",
+              "RelativeDocumentMoniker": "Kata.Wallet.Api\\Controllers\\WalletController.cs",
+              "ToolTip": "C:\\Users\\ivanm\\OneDrive\\Documentos\\Possumus\\callenges\\dotnet-wallet-l2\\Kata.Wallet.L2\\Kata.Wallet.Api\\Controllers\\WalletController.cs",
+              "RelativeToolTip": "Kata.Wallet.Api\\Controllers\\WalletController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T12:56:27.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ivanm\\OneDrive\\Documentos\\Possumus\\callenges\\dotnet-wallet-l2\\Kata.Wallet.L2\\Kata.Wallet.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Kata.Wallet.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\ivanm\\OneDrive\\Documentos\\Possumus\\callenges\\dotnet-wallet-l2\\Kata.Wallet.L2\\Kata.Wallet.Api\\Program.cs",
+              "RelativeToolTip": "Kata.Wallet.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T12:55:48.716Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

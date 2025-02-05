@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Kata.Wallet.Database\Kata.Wallet.Database.csproj" />
+    <ProjectReference Include="..\Kata.Wallet.Domain\Kata.Wallet.Domain.csproj" />
+    <ProjectReference Include="..\Kata.Wallet.Dtos\Kata.Wallet.Dtos.csproj" />
+  </ItemGroup>
+
+</Project>

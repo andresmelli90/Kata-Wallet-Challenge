@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Kata.Wallet.Domain/1.0.0": {
+        "runtime": {
+          "Kata.Wallet.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Kata.Wallet.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

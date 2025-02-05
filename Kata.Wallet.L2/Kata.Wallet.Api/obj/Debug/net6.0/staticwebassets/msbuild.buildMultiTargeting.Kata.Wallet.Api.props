@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Kata.Wallet.Api.props" />
+</Project>

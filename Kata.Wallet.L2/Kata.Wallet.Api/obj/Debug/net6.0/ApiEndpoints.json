@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "Kata.Wallet.API.Controllers.WalletController",
+    "Method": "GetAll",
+    "RelativePath": "api/Wallet",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Kata.Wallet.Domain.Wallet, Kata.Wallet.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Kata.Wallet.API.Controllers.WalletController",
+    "Method": "Create",
+    "RelativePath": "api/Wallet",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "wallet",
+        "Type": "Kata.Wallet.Dtos.WalletDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

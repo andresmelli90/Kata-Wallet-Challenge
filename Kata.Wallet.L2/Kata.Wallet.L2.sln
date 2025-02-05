@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata.Wallet.Api", "Kata.Wallet.Api\Kata.Wallet.Api.csproj", "{73CC6D71-C54E-486B-AA43-95EA1AAF7279}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata.Wallet.Database", "Kata.Wallet.Database\Kata.Wallet.Database.csproj", "{8F82D1D8-174A-49CA-AC5D-AAE579873A0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata.Wallet.Domain", "Kata.Wallet.Domain\Kata.Wallet.Domain.csproj", "{AD49DB53-F88D-4D2B-BC68-96AE0F6A8986}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata.Wallet.Services", "Kata.Wallet.Services\Kata.Wallet.Services.csproj", "{6D74A6B0-08FE-41C6-A6F4-0CB3416F4518}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kata.Wallet.Dtos", "Kata.Wallet.Dtos\Kata.Wallet.Dtos.csproj", "{0D7A4EB9-7F92-4E12-987D-569C44E896B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Web", "01. Web", "{EC9B657A-ECA5-47D6-9CEB-038DE935A0EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Services", "02. Services", "{52B5D6EE-3FD0-47C2-AA05-50F3DEFA23F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Persistence", "03. Persistence", "{762FA326-60B8-4C4A-A3DF-6D6BCF761690}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Test", "04. Test", "{8995D040-72EC-4E1F-888B-8F07D476D15D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata.Wallet.Tests", "Test\Kata.Wallet.Tests.csproj", "{A85443EC-4EDC-4EB5-B747-72C3DCF8D582}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73CC6D71-C54E-486B-AA43-95EA1AAF7279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73CC6D71-C54E-486B-AA43-95EA1AAF7279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73CC6D71-C54E-486B-AA43-95EA1AAF7279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73CC6D71-C54E-486B-AA43-95EA1AAF7279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F82D1D8-174A-49CA-AC5D-AAE579873A0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F82D1D8-174A-49CA-AC5D-AAE579873A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F82D1D8-174A-49CA-AC5D-AAE579873A0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F82D1D8-174A-49CA-AC5D-AAE579873A0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD49DB53-F88D-4D2B-BC68-96AE0F6A8986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD49DB53-F88D-4D2B-BC68-96AE0F6A8986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD49DB53-F88D-4D2B-BC68-96AE0F6A8986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD49DB53-F88D-4D2B-BC68-96AE0F6A8986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D74A6B0-08FE-41C6-A6F4-0CB3416F4518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D74A6B0-08FE-41C6-A6F4-0CB3416F4518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D74A6B0-08FE-41C6-A6F4-0CB3416F4518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D74A6B0-08FE-41C6-A6F4-0CB3416F4518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D7A4EB9-7F92-4E12-987D-569C44E896B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7A4EB9-7F92-4E12-987D-569C44E896B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7A4EB9-7F92-4E12-987D-569C44E896B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7A4EB9-7F92-4E12-987D-569C44E896B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A85443EC-4EDC-4EB5-B747-72C3DCF8D582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A85443EC-4EDC-4EB5-B747-72C3DCF8D582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A85443EC-4EDC-4EB5-B747-72C3DCF8D582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A85443EC-4EDC-4EB5-B747-72C3DCF8D582}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73CC6D71-C54E-486B-AA43-95EA1AAF7279} = {EC9B657A-ECA5-47D6-9CEB-038DE935A0EF}
+		{8F82D1D8-174A-49CA-AC5D-AAE579873A0E} = {762FA326-60B8-4C4A-A3DF-6D6BCF761690}
+		{AD49DB53-F88D-4D2B-BC68-96AE0F6A8986} = {762FA326-60B8-4C4A-A3DF-6D6BCF761690}
+		{6D74A6B0-08FE-41C6-A6F4-0CB3416F4518} = {52B5D6EE-3FD0-47C2-AA05-50F3DEFA23F8}
+		{0D7A4EB9-7F92-4E12-987D-569C44E896B1} = {52B5D6EE-3FD0-47C2-AA05-50F3DEFA23F8}
+		{A85443EC-4EDC-4EB5-B747-72C3DCF8D582} = {8995D040-72EC-4E1F-888B-8F07D476D15D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C093B85D-6C0A-4B0C-B6B8-5C4D1378EEA5}
+	EndGlobalSection
+EndGlobal
