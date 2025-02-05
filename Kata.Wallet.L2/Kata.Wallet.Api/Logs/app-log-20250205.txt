@@ -61,3 +61,225 @@
 2025-02-05 10:13:07.133 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - -
 2025-02-05 10:13:07.137 -03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 2.5184 ms
 2025-02-05 10:13:07.139 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 6.8240ms
+2025-02-05 10:14:22.869 -03:00 [INF] Now listening on: https://localhost:7075
+2025-02-05 10:14:22.915 -03:00 [INF] Now listening on: http://localhost:5085
+2025-02-05 10:14:22.923 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-05 10:14:22.925 -03:00 [INF] Hosting environment: Development
+2025-02-05 10:14:22.926 -03:00 [INF] Content root path: C:\Users\amellimaci\Downloads\dotnet-wallet-l2\Kata.Wallet.L2\Kata.Wallet.Api\
+2025-02-05 10:14:23.758 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7075/swagger/index.html - -
+2025-02-05 10:14:24.106 -03:00 [INF] HTTP GET /swagger/index.html responded 200 in 293.4315 ms
+2025-02-05 10:14:24.118 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - -
+2025-02-05 10:14:24.118 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_vs/browserLink - -
+2025-02-05 10:14:24.123 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 5.2499ms
+2025-02-05 10:14:24.124 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7075/swagger/index.html - - - 200 - text/html;charset=utf-8 370.0041ms
+2025-02-05 10:14:24.144 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.5241ms
+2025-02-05 10:14:24.180 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - -
+2025-02-05 10:14:24.290 -03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 108.6420 ms
+2025-02-05 10:14:24.293 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 112.2837ms
+2025-02-05 10:14:38.498 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7075/api/Wallet application/json 102
+2025-02-05 10:14:38.510 -03:00 [INF] Executing endpoint 'Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api)'
+2025-02-05 10:14:38.551 -03:00 [INF] Route matched with {action = "Create", controller = "Wallet"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Kata.Wallet.Domain.Wallet]] Create(Kata.Wallet.Dtos.WalletDto) on controller Kata.Wallet.API.Controllers.WalletController (Kata.Wallet.Api).
+2025-02-05 10:14:39.580 -03:00 [INF] Wallet successfully created: 1
+2025-02-05 10:14:39.590 -03:00 [INF] Executing CreatedAtActionResult, writing value of type 'Kata.Wallet.Domain.Wallet'.
+2025-02-05 10:14:39.641 -03:00 [INF] Executed action Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api) in 1081.8818ms
+2025-02-05 10:14:39.644 -03:00 [INF] Executed endpoint 'Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api)'
+2025-02-05 10:14:39.645 -03:00 [INF] HTTP POST /api/Wallet responded 201 in 1140.4036 ms
+2025-02-05 10:14:39.652 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7075/api/Wallet application/json 102 - 201 - application/json;+charset=utf-8 1153.2754ms
+2025-02-05 10:15:12.040 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7075/api/Wallet - -
+2025-02-05 10:15:12.048 -03:00 [INF] Executing endpoint 'Kata.Wallet.API.Controllers.WalletController.GetAll (Kata.Wallet.Api)'
+2025-02-05 10:15:12.053 -03:00 [INF] Route matched with {action = "GetAll", controller = "Wallet"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Kata.Wallet.Domain.Wallet]]] GetAll(System.String, System.String) on controller Kata.Wallet.API.Controllers.WalletController (Kata.Wallet.Api).
+2025-02-05 10:15:14.628 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kata.Wallet.Domain.Wallet, Kata.Wallet.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-05 10:15:14.632 -03:00 [INF] Executed action Kata.Wallet.API.Controllers.WalletController.GetAll (Kata.Wallet.Api) in 2575.6938ms
+2025-02-05 10:15:14.634 -03:00 [INF] Executed endpoint 'Kata.Wallet.API.Controllers.WalletController.GetAll (Kata.Wallet.Api)'
+2025-02-05 10:15:14.635 -03:00 [INF] HTTP GET /api/Wallet responded 200 in 2587.2278 ms
+2025-02-05 10:15:14.637 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7075/api/Wallet - - - 200 - application/json;+charset=utf-8 2597.3695ms
+2025-02-05 10:15:27.442 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7075/api/Wallet application/json 106
+2025-02-05 10:15:27.445 -03:00 [INF] Executing endpoint 'Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api)'
+2025-02-05 10:15:27.447 -03:00 [INF] Route matched with {action = "Create", controller = "Wallet"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Kata.Wallet.Domain.Wallet]] Create(Kata.Wallet.Dtos.WalletDto) on controller Kata.Wallet.API.Controllers.WalletController (Kata.Wallet.Api).
+2025-02-05 10:15:27.465 -03:00 [INF] Wallet successfully created: 2
+2025-02-05 10:15:27.467 -03:00 [INF] Executing CreatedAtActionResult, writing value of type 'Kata.Wallet.Domain.Wallet'.
+2025-02-05 10:15:27.469 -03:00 [INF] Executed action Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api) in 17.4067ms
+2025-02-05 10:15:27.471 -03:00 [INF] Executed endpoint 'Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api)'
+2025-02-05 10:15:27.472 -03:00 [INF] HTTP POST /api/Wallet responded 201 in 26.8842 ms
+2025-02-05 10:15:27.474 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7075/api/Wallet application/json 106 - 201 - application/json;+charset=utf-8 32.0574ms
+2025-02-05 10:15:47.051 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7075/api/Transaction application/json 93
+2025-02-05 10:15:47.062 -03:00 [INF] Executing endpoint 'Kata.Wallet.Api.Controllers.TransactionController.ProcessTransaction (Kata.Wallet.Api)'
+2025-02-05 10:15:47.068 -03:00 [INF] Route matched with {action = "ProcessTransaction", controller = "Transaction"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] ProcessTransaction(Kata.Wallet.Dtos.TransactionRequestDto) on controller Kata.Wallet.Api.Controllers.TransactionController (Kata.Wallet.Api).
+2025-02-05 10:15:47.238 -03:00 [WRN] Wallet not found with ID: 3
+2025-02-05 10:15:47.366 -03:00 [ERR] Error creating transaction between source wallet 1 and destination wallet 3.
+System.ArgumentException: Non-existent destination wallet.
+   at Kata.Wallet.Services.Services.TransactionService.CreateAsync(TransactionRequestDto transactionData) in C:\Users\amellimaci\Downloads\dotnet-wallet-l2\Kata.Wallet.L2\Kata.Wallet.Services\Services\TransactionService.cs:line 48
+2025-02-05 10:15:47.579 -03:00 [WRN] Invalid argument when processing the transaction.
+System.ArgumentException: Non-existent destination wallet.
+   at Kata.Wallet.Services.Services.TransactionService.CreateAsync(TransactionRequestDto transactionData) in C:\Users\amellimaci\Downloads\dotnet-wallet-l2\Kata.Wallet.L2\Kata.Wallet.Services\Services\TransactionService.cs:line 48
+   at Kata.Wallet.Api.Controllers.TransactionController.ProcessTransaction(TransactionRequestDto transactionData) in C:\Users\amellimaci\Downloads\dotnet-wallet-l2\Kata.Wallet.L2\Kata.Wallet.Api\Controllers\TransactionController.cs:line 61
+2025-02-05 10:15:47.598 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-05 10:15:47.607 -03:00 [INF] Executed action Kata.Wallet.Api.Controllers.TransactionController.ProcessTransaction (Kata.Wallet.Api) in 537.0106ms
+2025-02-05 10:15:47.609 -03:00 [INF] Executed endpoint 'Kata.Wallet.Api.Controllers.TransactionController.ProcessTransaction (Kata.Wallet.Api)'
+2025-02-05 10:15:47.611 -03:00 [INF] HTTP POST /api/Transaction responded 400 in 549.0851 ms
+2025-02-05 10:15:47.613 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7075/api/Transaction application/json 93 - 400 - application/problem+json;+charset=utf-8 561.8735ms
+2025-02-05 10:15:53.751 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7075/api/Transaction application/json 93
+2025-02-05 10:15:53.753 -03:00 [INF] Executing endpoint 'Kata.Wallet.Api.Controllers.TransactionController.ProcessTransaction (Kata.Wallet.Api)'
+2025-02-05 10:15:53.755 -03:00 [INF] Route matched with {action = "ProcessTransaction", controller = "Transaction"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] ProcessTransaction(Kata.Wallet.Dtos.TransactionRequestDto) on controller Kata.Wallet.Api.Controllers.TransactionController (Kata.Wallet.Api).
+2025-02-05 10:15:53.817 -03:00 [INF] Wallet successfully updated: 1
+2025-02-05 10:15:53.818 -03:00 [INF] Wallet successfully updated: 2
+2025-02-05 10:15:53.819 -03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-05 10:15:53.828 -03:00 [INF] Executed action Kata.Wallet.Api.Controllers.TransactionController.ProcessTransaction (Kata.Wallet.Api) in 71.6017ms
+2025-02-05 10:15:53.832 -03:00 [INF] Executed endpoint 'Kata.Wallet.Api.Controllers.TransactionController.ProcessTransaction (Kata.Wallet.Api)'
+2025-02-05 10:15:53.833 -03:00 [INF] HTTP POST /api/Transaction responded 200 in 80.0107 ms
+2025-02-05 10:15:53.834 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7075/api/Transaction application/json 93 - 200 - application/json;+charset=utf-8 83.3954ms
+2025-02-05 10:16:01.037 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7075/api/Transaction?walletId=1 - -
+2025-02-05 10:16:01.040 -03:00 [INF] Executing endpoint 'Kata.Wallet.Api.Controllers.TransactionController.GetTransactions (Kata.Wallet.Api)'
+2025-02-05 10:16:01.044 -03:00 [INF] Route matched with {action = "GetTransactions", controller = "Transaction"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Kata.Wallet.Dtos.WalletDto]] GetTransactions(Int32) on controller Kata.Wallet.Api.Controllers.TransactionController (Kata.Wallet.Api).
+2025-02-05 10:16:01.147 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kata.Wallet.Dtos.TransactionResponseDto, Kata.Wallet.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-05 10:16:01.164 -03:00 [INF] Executed action Kata.Wallet.Api.Controllers.TransactionController.GetTransactions (Kata.Wallet.Api) in 116.1959ms
+2025-02-05 10:16:01.166 -03:00 [INF] Executed endpoint 'Kata.Wallet.Api.Controllers.TransactionController.GetTransactions (Kata.Wallet.Api)'
+2025-02-05 10:16:01.167 -03:00 [INF] HTTP GET /api/Transaction responded 200 in 127.0132 ms
+2025-02-05 10:16:01.168 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7075/api/Transaction?walletId=1 - - - 200 - application/json;+charset=utf-8 130.9898ms
+2025-02-05 10:16:03.529 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7075/api/Transaction?walletId=2 - -
+2025-02-05 10:16:03.532 -03:00 [INF] Executing endpoint 'Kata.Wallet.Api.Controllers.TransactionController.GetTransactions (Kata.Wallet.Api)'
+2025-02-05 10:16:03.534 -03:00 [INF] Route matched with {action = "GetTransactions", controller = "Transaction"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Kata.Wallet.Dtos.WalletDto]] GetTransactions(Int32) on controller Kata.Wallet.Api.Controllers.TransactionController (Kata.Wallet.Api).
+2025-02-05 10:16:03.540 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kata.Wallet.Dtos.TransactionResponseDto, Kata.Wallet.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-05 10:16:03.541 -03:00 [INF] Executed action Kata.Wallet.Api.Controllers.TransactionController.GetTransactions (Kata.Wallet.Api) in 4.1232ms
+2025-02-05 10:16:03.543 -03:00 [INF] Executed endpoint 'Kata.Wallet.Api.Controllers.TransactionController.GetTransactions (Kata.Wallet.Api)'
+2025-02-05 10:16:03.545 -03:00 [INF] HTTP GET /api/Transaction responded 200 in 12.8823 ms
+2025-02-05 10:16:03.547 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7075/api/Transaction?walletId=2 - - - 200 - application/json;+charset=utf-8 17.7243ms
+2025-02-05 10:16:06.855 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7075/api/Transaction?walletId=3 - -
+2025-02-05 10:16:06.859 -03:00 [INF] Executing endpoint 'Kata.Wallet.Api.Controllers.TransactionController.GetTransactions (Kata.Wallet.Api)'
+2025-02-05 10:16:06.861 -03:00 [INF] Route matched with {action = "GetTransactions", controller = "Transaction"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Kata.Wallet.Dtos.WalletDto]] GetTransactions(Int32) on controller Kata.Wallet.Api.Controllers.TransactionController (Kata.Wallet.Api).
+2025-02-05 10:16:06.866 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kata.Wallet.Dtos.TransactionResponseDto, Kata.Wallet.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-05 10:16:06.868 -03:00 [INF] Executed action Kata.Wallet.Api.Controllers.TransactionController.GetTransactions (Kata.Wallet.Api) in 2.1636ms
+2025-02-05 10:16:06.870 -03:00 [INF] Executed endpoint 'Kata.Wallet.Api.Controllers.TransactionController.GetTransactions (Kata.Wallet.Api)'
+2025-02-05 10:16:06.871 -03:00 [INF] HTTP GET /api/Transaction responded 200 in 12.2848 ms
+2025-02-05 10:16:06.873 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7075/api/Transaction?walletId=3 - - - 200 - application/json;+charset=utf-8 17.1008ms
+2025-02-05 10:20:07.081 -03:00 [INF] Now listening on: https://localhost:7075
+2025-02-05 10:20:07.117 -03:00 [INF] Now listening on: http://localhost:5085
+2025-02-05 10:20:07.121 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-05 10:20:07.123 -03:00 [INF] Hosting environment: Development
+2025-02-05 10:20:07.123 -03:00 [INF] Content root path: C:\Users\amellimaci\Downloads\dotnet-wallet-l2\Kata.Wallet.L2\Kata.Wallet.Api\
+2025-02-05 10:20:07.486 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7075/swagger/index.html - -
+2025-02-05 10:20:07.791 -03:00 [INF] HTTP GET /swagger/index.html responded 200 in 259.0113 ms
+2025-02-05 10:20:07.801 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_vs/browserLink - -
+2025-02-05 10:20:07.801 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - -
+2025-02-05 10:20:07.812 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 10.1851ms
+2025-02-05 10:20:07.813 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7075/swagger/index.html - - - 200 - text/html;charset=utf-8 330.7958ms
+2025-02-05 10:20:07.816 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7075/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.4895ms
+2025-02-05 10:20:07.867 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - -
+2025-02-05 10:20:07.978 -03:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 110.2345 ms
+2025-02-05 10:20:07.982 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7075/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 114.8094ms
+2025-02-05 10:20:11.990 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7075/api/Wallet application/json 102
+2025-02-05 10:20:11.998 -03:00 [INF] Executing endpoint 'Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api)'
+2025-02-05 10:20:12.027 -03:00 [INF] Route matched with {action = "Create", controller = "Wallet"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Kata.Wallet.Domain.Wallet]] Create(Kata.Wallet.Dtos.WalletDto) on controller Kata.Wallet.API.Controllers.WalletController (Kata.Wallet.Api).
+2025-02-05 10:20:12.763 -03:00 [INF] Wallet successfully created: 1
+2025-02-05 10:20:12.775 -03:00 [INF] Executing CreatedAtActionResult, writing value of type 'Kata.Wallet.Domain.Wallet'.
+2025-02-05 10:20:12.826 -03:00 [INF] Executed action Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api) in 790.7417ms
+2025-02-05 10:20:12.829 -03:00 [INF] Executed endpoint 'Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api)'
+2025-02-05 10:20:12.831 -03:00 [INF] HTTP POST /api/Wallet responded 201 in 836.2645 ms
+2025-02-05 10:20:12.837 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7075/api/Wallet application/json 102 - 201 - application/json;+charset=utf-8 847.3780ms
+2025-02-05 10:20:26.751 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7075/api/Wallet application/json 188
+2025-02-05 10:20:26.757 -03:00 [INF] Executing endpoint 'Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api)'
+2025-02-05 10:20:26.759 -03:00 [INF] Route matched with {action = "Create", controller = "Wallet"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Kata.Wallet.Domain.Wallet]] Create(Kata.Wallet.Dtos.WalletDto) on controller Kata.Wallet.API.Controllers.WalletController (Kata.Wallet.Api).
+2025-02-05 10:20:26.767 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-05 10:20:26.780 -03:00 [INF] Executed action Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api) in 18.5125ms
+2025-02-05 10:20:26.781 -03:00 [INF] Executed endpoint 'Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api)'
+2025-02-05 10:20:26.782 -03:00 [INF] HTTP POST /api/Wallet responded 400 in 25.6559 ms
+2025-02-05 10:20:26.784 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7075/api/Wallet application/json 188 - 400 - application/problem+json;+charset=utf-8 32.9114ms
+2025-02-05 10:20:45.601 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7075/api/Wallet application/json 220
+2025-02-05 10:20:45.603 -03:00 [INF] Executing endpoint 'Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api)'
+2025-02-05 10:20:45.605 -03:00 [INF] Route matched with {action = "Create", controller = "Wallet"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Kata.Wallet.Domain.Wallet]] Create(Kata.Wallet.Dtos.WalletDto) on controller Kata.Wallet.API.Controllers.WalletController (Kata.Wallet.Api).
+2025-02-05 10:20:45.612 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-05 10:20:45.613 -03:00 [INF] Executed action Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api) in 3.5315ms
+2025-02-05 10:20:45.614 -03:00 [INF] Executed endpoint 'Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api)'
+2025-02-05 10:20:45.616 -03:00 [INF] HTTP POST /api/Wallet responded 400 in 12.5242 ms
+2025-02-05 10:20:45.617 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7075/api/Wallet application/json 220 - 400 - application/problem+json;+charset=utf-8 15.8045ms
+2025-02-05 10:20:58.793 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7075/api/Wallet application/json 101
+2025-02-05 10:20:58.794 -03:00 [INF] Executing endpoint 'Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api)'
+2025-02-05 10:20:58.795 -03:00 [INF] Route matched with {action = "Create", controller = "Wallet"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Kata.Wallet.Domain.Wallet]] Create(Kata.Wallet.Dtos.WalletDto) on controller Kata.Wallet.API.Controllers.WalletController (Kata.Wallet.Api).
+2025-02-05 10:20:58.807 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-05 10:20:58.809 -03:00 [INF] Executed action Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api) in 11.3918ms
+2025-02-05 10:20:58.810 -03:00 [INF] Executed endpoint 'Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api)'
+2025-02-05 10:20:58.812 -03:00 [INF] HTTP POST /api/Wallet responded 400 in 17.4482 ms
+2025-02-05 10:20:58.814 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7075/api/Wallet application/json 101 - 400 - application/problem+json;+charset=utf-8 21.4253ms
+2025-02-05 10:21:13.234 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7075/api/Wallet application/json 83
+2025-02-05 10:21:13.237 -03:00 [INF] Executing endpoint 'Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api)'
+2025-02-05 10:21:13.240 -03:00 [INF] Route matched with {action = "Create", controller = "Wallet"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Kata.Wallet.Domain.Wallet]] Create(Kata.Wallet.Dtos.WalletDto) on controller Kata.Wallet.API.Controllers.WalletController (Kata.Wallet.Api).
+2025-02-05 10:21:13.270 -03:00 [INF] Wallet successfully created: 2
+2025-02-05 10:21:13.271 -03:00 [INF] Executing CreatedAtActionResult, writing value of type 'Kata.Wallet.Domain.Wallet'.
+2025-02-05 10:21:13.274 -03:00 [INF] Executed action Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api) in 31.508ms
+2025-02-05 10:21:13.275 -03:00 [INF] Executed endpoint 'Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api)'
+2025-02-05 10:21:13.276 -03:00 [INF] HTTP POST /api/Wallet responded 201 in 39.3971 ms
+2025-02-05 10:21:13.278 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7075/api/Wallet application/json 83 - 201 - application/json;+charset=utf-8 43.8374ms
+2025-02-05 10:21:23.616 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7075/api/Wallet application/json 106
+2025-02-05 10:21:23.617 -03:00 [INF] Executing endpoint 'Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api)'
+2025-02-05 10:21:23.619 -03:00 [INF] Route matched with {action = "Create", controller = "Wallet"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Kata.Wallet.Domain.Wallet]] Create(Kata.Wallet.Dtos.WalletDto) on controller Kata.Wallet.API.Controllers.WalletController (Kata.Wallet.Api).
+2025-02-05 10:21:23.635 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-05 10:21:23.636 -03:00 [INF] Executed action Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api) in 14.1839ms
+2025-02-05 10:21:23.638 -03:00 [INF] Executed endpoint 'Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api)'
+2025-02-05 10:21:23.640 -03:00 [INF] HTTP POST /api/Wallet responded 400 in 22.3849 ms
+2025-02-05 10:21:23.642 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7075/api/Wallet application/json 106 - 400 - application/problem+json;+charset=utf-8 25.5971ms
+2025-02-05 10:21:35.686 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7075/api/Wallet application/json 105
+2025-02-05 10:21:35.689 -03:00 [INF] Executing endpoint 'Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api)'
+2025-02-05 10:21:35.691 -03:00 [INF] Route matched with {action = "Create", controller = "Wallet"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Kata.Wallet.Domain.Wallet]] Create(Kata.Wallet.Dtos.WalletDto) on controller Kata.Wallet.API.Controllers.WalletController (Kata.Wallet.Api).
+2025-02-05 10:21:35.695 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-02-05 10:21:35.697 -03:00 [INF] Executed action Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api) in 2.8627ms
+2025-02-05 10:21:35.699 -03:00 [INF] Executed endpoint 'Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api)'
+2025-02-05 10:21:35.700 -03:00 [INF] HTTP POST /api/Wallet responded 400 in 10.4356 ms
+2025-02-05 10:21:35.702 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7075/api/Wallet application/json 105 - 400 - application/problem+json;+charset=utf-8 15.2714ms
+2025-02-05 10:21:44.655 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7075/api/Wallet application/json 88
+2025-02-05 10:21:44.657 -03:00 [INF] Executing endpoint 'Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api)'
+2025-02-05 10:21:44.658 -03:00 [INF] Route matched with {action = "Create", controller = "Wallet"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Kata.Wallet.Domain.Wallet]] Create(Kata.Wallet.Dtos.WalletDto) on controller Kata.Wallet.API.Controllers.WalletController (Kata.Wallet.Api).
+2025-02-05 10:21:44.675 -03:00 [INF] Wallet successfully created: 3
+2025-02-05 10:21:44.676 -03:00 [INF] Executing CreatedAtActionResult, writing value of type 'Kata.Wallet.Domain.Wallet'.
+2025-02-05 10:21:44.677 -03:00 [INF] Executed action Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api) in 16.4859ms
+2025-02-05 10:21:44.679 -03:00 [INF] Executed endpoint 'Kata.Wallet.API.Controllers.WalletController.Create (Kata.Wallet.Api)'
+2025-02-05 10:21:44.680 -03:00 [INF] HTTP POST /api/Wallet responded 201 in 23.4937 ms
+2025-02-05 10:21:44.682 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7075/api/Wallet application/json 88 - 201 - application/json;+charset=utf-8 26.7899ms
+2025-02-05 10:21:54.675 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7075/api/Wallet - -
+2025-02-05 10:21:54.677 -03:00 [INF] Executing endpoint 'Kata.Wallet.API.Controllers.WalletController.GetAll (Kata.Wallet.Api)'
+2025-02-05 10:21:54.684 -03:00 [INF] Route matched with {action = "GetAll", controller = "Wallet"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Kata.Wallet.Domain.Wallet]]] GetAll(System.String, System.String) on controller Kata.Wallet.API.Controllers.WalletController (Kata.Wallet.Api).
+2025-02-05 10:21:54.869 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kata.Wallet.Domain.Wallet, Kata.Wallet.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-05 10:21:54.873 -03:00 [INF] Executed action Kata.Wallet.API.Controllers.WalletController.GetAll (Kata.Wallet.Api) in 184.6216ms
+2025-02-05 10:21:54.875 -03:00 [INF] Executed endpoint 'Kata.Wallet.API.Controllers.WalletController.GetAll (Kata.Wallet.Api)'
+2025-02-05 10:21:54.876 -03:00 [INF] HTTP GET /api/Wallet responded 200 in 198.9086 ms
+2025-02-05 10:21:54.878 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7075/api/Wallet - - - 200 - application/json;+charset=utf-8 202.7334ms
+2025-02-05 10:22:09.818 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7075/api/Transaction?walletId=1 - -
+2025-02-05 10:22:09.820 -03:00 [INF] Executing endpoint 'Kata.Wallet.Api.Controllers.TransactionController.GetTransactions (Kata.Wallet.Api)'
+2025-02-05 10:22:09.825 -03:00 [INF] Route matched with {action = "GetTransactions", controller = "Transaction"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Kata.Wallet.Dtos.WalletDto]] GetTransactions(Int32) on controller Kata.Wallet.Api.Controllers.TransactionController (Kata.Wallet.Api).
+2025-02-05 10:22:10.067 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kata.Wallet.Dtos.TransactionResponseDto, Kata.Wallet.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-05 10:22:10.072 -03:00 [INF] Executed action Kata.Wallet.Api.Controllers.TransactionController.GetTransactions (Kata.Wallet.Api) in 242.8588ms
+2025-02-05 10:22:10.077 -03:00 [INF] Executed endpoint 'Kata.Wallet.Api.Controllers.TransactionController.GetTransactions (Kata.Wallet.Api)'
+2025-02-05 10:22:10.078 -03:00 [INF] HTTP GET /api/Transaction responded 200 in 257.9107 ms
+2025-02-05 10:22:10.080 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7075/api/Transaction?walletId=1 - - - 200 - application/json;+charset=utf-8 261.9578ms
+2025-02-05 10:22:22.738 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7075/api/Transaction application/json 93
+2025-02-05 10:22:22.740 -03:00 [INF] Executing endpoint 'Kata.Wallet.Api.Controllers.TransactionController.ProcessTransaction (Kata.Wallet.Api)'
+2025-02-05 10:22:22.744 -03:00 [INF] Route matched with {action = "ProcessTransaction", controller = "Transaction"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] ProcessTransaction(Kata.Wallet.Dtos.TransactionRequestDto) on controller Kata.Wallet.Api.Controllers.TransactionController (Kata.Wallet.Api).
+2025-02-05 10:22:23.081 -03:00 [ERR] Error creating transaction between source wallet 1 and destination wallet 3.
+System.InvalidOperationException: Insufficient balance in the originating wallet.
+   at Kata.Wallet.Services.Services.TransactionService.CreateAsync(TransactionRequestDto transactionData) in C:\Users\amellimaci\Downloads\dotnet-wallet-l2\Kata.Wallet.L2\Kata.Wallet.Services\Services\TransactionService.cs:line 60
+2025-02-05 10:22:23.302 -03:00 [WRN] Invalid transaction when processing the transaction.
+System.InvalidOperationException: Insufficient balance in the originating wallet.
+   at Kata.Wallet.Services.Services.TransactionService.CreateAsync(TransactionRequestDto transactionData) in C:\Users\amellimaci\Downloads\dotnet-wallet-l2\Kata.Wallet.L2\Kata.Wallet.Services\Services\TransactionService.cs:line 60
+   at Kata.Wallet.Api.Controllers.TransactionController.ProcessTransaction(TransactionRequestDto transactionData) in C:\Users\amellimaci\Downloads\dotnet-wallet-l2\Kata.Wallet.L2\Kata.Wallet.Api\Controllers\TransactionController.cs:line 61
+2025-02-05 10:22:23.319 -03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-02-05 10:22:23.321 -03:00 [INF] Executed action Kata.Wallet.Api.Controllers.TransactionController.ProcessTransaction (Kata.Wallet.Api) in 574.7152ms
+2025-02-05 10:22:23.323 -03:00 [INF] Executed endpoint 'Kata.Wallet.Api.Controllers.TransactionController.ProcessTransaction (Kata.Wallet.Api)'
+2025-02-05 10:22:23.324 -03:00 [INF] HTTP POST /api/Transaction responded 400 in 584.1141 ms
+2025-02-05 10:22:23.325 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7075/api/Transaction application/json 93 - 400 - application/problem+json;+charset=utf-8 587.4157ms
+2025-02-05 10:22:38.253 -03:00 [INF] Request starting HTTP/2 POST https://localhost:7075/api/Transaction application/json 93
+2025-02-05 10:22:38.255 -03:00 [INF] Executing endpoint 'Kata.Wallet.Api.Controllers.TransactionController.ProcessTransaction (Kata.Wallet.Api)'
+2025-02-05 10:22:38.256 -03:00 [INF] Route matched with {action = "ProcessTransaction", controller = "Transaction"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] ProcessTransaction(Kata.Wallet.Dtos.TransactionRequestDto) on controller Kata.Wallet.Api.Controllers.TransactionController (Kata.Wallet.Api).
+2025-02-05 10:22:38.306 -03:00 [INF] Wallet successfully updated: 1
+2025-02-05 10:22:38.307 -03:00 [INF] Wallet successfully updated: 3
+2025-02-05 10:22:38.308 -03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-02-05 10:22:38.318 -03:00 [INF] Executed action Kata.Wallet.Api.Controllers.TransactionController.ProcessTransaction (Kata.Wallet.Api) in 59.654ms
+2025-02-05 10:22:38.320 -03:00 [INF] Executed endpoint 'Kata.Wallet.Api.Controllers.TransactionController.ProcessTransaction (Kata.Wallet.Api)'
+2025-02-05 10:22:38.321 -03:00 [INF] HTTP POST /api/Transaction responded 200 in 66.2303 ms
+2025-02-05 10:22:38.323 -03:00 [INF] Request finished HTTP/2 POST https://localhost:7075/api/Transaction application/json 93 - 200 - application/json;+charset=utf-8 69.9111ms
+2025-02-05 10:22:42.369 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7075/api/Transaction?walletId=1 - -
+2025-02-05 10:22:42.371 -03:00 [INF] Executing endpoint 'Kata.Wallet.Api.Controllers.TransactionController.GetTransactions (Kata.Wallet.Api)'
+2025-02-05 10:22:42.373 -03:00 [INF] Route matched with {action = "GetTransactions", controller = "Transaction"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Kata.Wallet.Dtos.WalletDto]] GetTransactions(Int32) on controller Kata.Wallet.Api.Controllers.TransactionController (Kata.Wallet.Api).
+2025-02-05 10:22:42.381 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Kata.Wallet.Dtos.TransactionResponseDto, Kata.Wallet.Dtos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-02-05 10:22:42.390 -03:00 [INF] Executed action Kata.Wallet.Api.Controllers.TransactionController.GetTransactions (Kata.Wallet.Api) in 14.8384ms
+2025-02-05 10:22:42.392 -03:00 [INF] Executed endpoint 'Kata.Wallet.Api.Controllers.TransactionController.GetTransactions (Kata.Wallet.Api)'
+2025-02-05 10:22:42.393 -03:00 [INF] HTTP GET /api/Transaction responded 200 in 22.1275 ms
+2025-02-05 10:22:42.395 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7075/api/Transaction?walletId=1 - - - 200 - application/json;+charset=utf-8 26.0755ms
